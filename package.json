@@ -1,0 +1,30 @@
+{
+  "name": "dojo-nodejs-esm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "test": "jest",
+    "test-watch": "jest --watch",
+    "test-watch-all": "jest --watchAll"
+  },
+  "author": "Milan Lempera <milanlempera@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "node-fetch": "^2.0.0"
+  },
+  "jest": {
+    "verbose": true
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/node": "^7.0.0-beta.40",
+    "@babel/plugin-transform-modules-commonjs": "^7.0.0-beta.40",
+    "@babel/preset-env": "^7.0.0-beta.40",
+    "babel-core": "^7.0.0-0",
+    "babel-jest": "^22.4.1",
+    "jest": "^22.4.2"
+  }
+}
